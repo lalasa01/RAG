@@ -14,7 +14,8 @@ Ingestion:
 First we ingested a PDF file which has the information about Spotify and how it was using AI.
 This comes under the documentation step where the file with information is given on which later querying is done.
 
-The data was next made into chunks and then embedded.  For the process of embedding we use the hugging face services through llama_index.
+The data was next made into chunks and then embedded. 
+For the process of embedding we use the hugging face services through llama_index.
 
 HF_TOKEN is used for authentication to use the services its providing through llama_index which helps in the process of embedding and connecting it with an LLM
 Llama_index not only connects with the LLM but also helps us understand the data and helps in the NLP tasks and analysis of the text data in the file.
